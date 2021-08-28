@@ -3,11 +3,7 @@
     <v-container style="">
       <global-title h2 class="mb-6">Projetos</global-title>
 
-      <v-row
-        v-if="!$vuetify.breakpoint.smAndDown"
-        style="overflow-x: scroll"
-        class="d-flex"
-      >
+      <v-row v-if="!$vuetify.breakpoint.smAndDown" class="d-flex">
         <v-col sm="6" v-for="item in projetos" :key="item.title">
           <main-home-projetos-projeto
             class="mx-2 my-2"
@@ -43,7 +39,7 @@ export default {
   data: () => ({
     projetos: [
       {
-        img: "img-1.png",
+        imgs: ["img-1-a.png", "img-1-b.png"],
         title: "Minha Cafeteria",
         subtitle: "Cálculadora de troféus, diamantes e rubys.",
         paragraph:
@@ -52,25 +48,37 @@ export default {
         href: "https://github.com/Lovelex/mycafe",
       },
       {
-        img: "img-2.png",
+        imgs: [
+          "img-2-a.png",
+          "img-2-b.png",
+          "img-2-c.png",
+          "img-2-d.png",
+          "img-2-e.png",
+        ],
         title: "Imobiliária digital",
         subtitle: "Front-end para uma imobiliária.",
         paragraph:
           "O template de uma imobiliária. Um design que remetesse a modernidade e diverssão. Escolhas de cores sugeridas pelo cliente.",
         subparagraph: "Vue, Vuetify, Firebase.",
-        href: "https://github.com/Lovelex/projeto-has",
+        href: "",
       },
       {
-        img: "img-3.png",
+        imgs: [
+          "img-3-a.png",
+          "img-3-b.png",
+          "img-3-c.png",
+          "img-3-d.png",
+          "img-3-e.png",
+        ],
         title: "Has",
         subtitle: "Divulgações de eventos, para um músico.",
         paragraph:
           "Um músico queria um lugar para mostrar seus eventos marcados, vídeos e mp3 gravados.",
         subparagraph: "Vue, Vuetify, Firebase.",
-        href: "",
+        href: "https://github.com/Lovelex/projeto-has",
       },
       {
-        img: "img-4.png",
+        imgs: ["img-4-a.png", "img-4-b.png", "img-4-c.png"],
         title: "Bela Minas",
         subtitle: "Divulgações para peças de roupas femininas.",
         paragraph:
@@ -79,16 +87,24 @@ export default {
         href: "",
       },
       {
-        img: "img-5.png",
+        imgs: ["img-5-a.png"],
         title: "Este Site",
-        subtitle: "Meu Portfólio",
+        subtitle: "Meu Portfólio.",
         paragraph:
           "Landing page para mostrar alguns dos meus projetos, com o design mais animado.",
         subparagraph: "Vue, Vuetify, Firebase.",
-        href: "",
+        href: "https://github.com/Lovelex/meu-portfolio",
       },
       {
-        img: "img-6.png",
+        imgs: [
+          "img-6-a.png",
+          "img-6-b.png",
+          "img-6-c.png",
+          "img-6-d.png",
+          "img-6-e.png",
+          "img-6-f.png",
+          "img-6-g.png",
+        ],
         title: "Udg Pages",
         subtitle: "Gerador de cenas para stream.",
         paragraph:
@@ -97,7 +113,14 @@ export default {
         href: "",
       },
       {
-        img: "img-8.png",
+        imgs: [
+          "img-8-a.png",
+          "img-8-b.png",
+          "img-8-c.png",
+          "img-8-d.png",
+          "img-8-e.png",
+          "img-8-f.png",
+        ],
         title: "Despachos",
         subtitle: "Controle de pagamento.",
         paragraph:
@@ -107,7 +130,7 @@ export default {
       },
 
       {
-        img: "img-10.png",
+        imgs: ["img-10-a.png", "img-10-b.png"],
         title: "Muso",
         subtitle: "Uma Prática com firebase-functions",
         paragraph:
@@ -116,7 +139,13 @@ export default {
         href: "https://github.com/Lovelex/muso",
       },
       {
-        img: "img-11.png",
+        imgs: [
+          "img-11-a.png",
+          "img-11-b.png",
+          "img-11-c.png",
+          "img-11-d.png",
+          "img-11-e.png",
+        ],
         title: "Udg Teams",
         subtitle: "Gerenciador para busca de times e jogadores.",
         paragraph:
@@ -125,7 +154,13 @@ export default {
         href: "",
       },
       {
-        img: "img-13.png",
+        imgs: [
+          "img-13-a.png",
+          "img-13-b.png",
+          "img-13-c.png",
+          "img-13-d.png",
+          "img-13-e.png",
+        ],
         title: "Fonktober",
         subtitle: "Organizador de artes.",
         paragraph:

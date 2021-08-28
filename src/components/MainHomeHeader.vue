@@ -4,8 +4,9 @@
       <v-row>
         <v-col sm="12" md="6">
           <div class="d-flex justify-center justify-md-start">
-            <v-avatar size="420px">
+            <v-avatar class="elevation-8" :size="$vuetify.breakpoint.xs ? '300' :'420'">
               <v-img
+                
                 :src="require('@/assets/img/me.png')"
               ></v-img>
             </v-avatar>
@@ -40,10 +41,10 @@
 export default {
   data: () => ({
     paragraphs: [
-      'Se você está visitando esta página, provavelmente está pensando "Quem é Pedro Farina?. E sendo honesto, essa é uma pergunta que muda de tempo em tempo.',
-      "Bom, por enquanto o que eu sei dizer é que eu amo pessoas, video-games e programação. Eu adoro conhecer novas pessoas, e estou sempre ansioso pra conhecer novas tecnologias e aprender a usá-las para agir no nosso cotidiano.",
-      "Eu tento ser sempre uma pessoa positiva e aproveitar meu tempo com aqueles ao meu redor. Eu sou muito brincalhão e vivo fazendo piadas.",
-      "E se você está interessado em mim, bom, atualmente estou comprometido, mas pode ficar a vontade, ver meus projetos e me enviar uma mensagem.",
+      'Se você está visitando esta página, provavelmente está pensando "Quem é Lucas Humberto?. E sendo honesto, essa é uma pergunta que muda de tempo em tempo.',
+      "Gosto muito de vídeo-games, conhecer pessoas novas e fazer elas rirem. Gosto de aprender tecnologias novas mesmo que eu não use no dia a dia.",
+      "Estudo programação por mim mesmo desde o final de 2018, passei por Python e Php.  Hoje em dia minha linguagem favorita é sem dúvidas JavaScript junto com o framwork VueJs.",
+      "Fique a vontade para ver meus projetos reais e de práticas e se quiser me mandar uma mensagem para mim, clique no meu nome no rodapé da página.",
     ],
   }),
 };

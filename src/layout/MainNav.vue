@@ -5,7 +5,7 @@
     <v-app-bar-nav-icon @click="toggleDialog" class="mr-4 d-block d-sm-none"></v-app-bar-nav-icon>
       <v-list  v-model="nav" color="#00000000" class=" d-sm-flex d-none">
         <v-list-item
-          @click="$vuetify.goTo(item.n)"
+          
           exact-active-class="app-nav-item"
           :to="item.to"
           v-for="item in navItems"
