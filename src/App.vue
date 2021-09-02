@@ -1,7 +1,7 @@
 <template>
   <v-app >
-    <v-main >
       <app-nav></app-nav>
+    <v-main >
       <router-view></router-view>
     </v-main>
   </v-app>
@@ -21,8 +21,11 @@ p::-moz-selection, span::-moz-selection{ /* Code for Firefox */
   color: white !important;
   background: #3A4BA7;
 }
-
+p, span {
+  font-size: 18px !important;
+}
 p::selection, span::selection {
+  
   color: white !important;
   background: #3A4BA7;
 }

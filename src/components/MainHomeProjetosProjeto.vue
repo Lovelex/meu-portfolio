@@ -1,5 +1,5 @@
 <template>
-  <div style="min-width: 360px" class="white rounded-lg pa-4 elevation-2">
+  <article style="min-width: 360px" class="white rounded-lg pa-4 elevation-2">
     <v-row no-gutters class="d-flex mb-4">
       <v-col
         cols="12"
@@ -13,7 +13,7 @@
                 v-on="on"
                 width="200"
                 contain
-                :src="require(`@/assets/img/${projeto.imgs[0]}`)"
+                :src="require(`@/assets/img/webp/${projeto.imgs[0]}`)"
               ></v-img>
             </template>
             <v-card class="pa-2">
@@ -26,7 +26,7 @@
                     <v-img
                       width="1080"
                       contain
-                      :src="require(`@/assets/img/${img}`)"
+                      :src="require(`@/assets/img/webp/${img}`)"
                     >
                       <div
                         style="height: 100%"
@@ -100,7 +100,7 @@
         </div>
       </v-btn>
     </div>
-  </div>
+  </article>
 </template>
 
 <script>

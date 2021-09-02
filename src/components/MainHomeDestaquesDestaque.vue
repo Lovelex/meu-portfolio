@@ -4,7 +4,7 @@
       <slider ref="slider">
         <slideritem v-for="(img, i) in destaque.imgs" :key="i">
           <v-card elevation="0" color="#00000000">
-            <v-img :src="require(`@/assets/img/${img}`)">
+            <v-img :alt="destaque.alt" :src="require(`@/assets/img/webp/${img}`)">
               <div style="height: 100%" class="d-flex align-center px-2">
                 <div style="width: 100%" class="d-flex justify-space-between">
                   <v-icon @click="$refs.slider.$emit('slidePre')" large color="white">mdi-chevron-left</v-icon>
@@ -17,7 +17,7 @@
       </slider>
     </v-col>
     <v-col style="height: 100%" sm="12" md="6">
-      <div style="height: 300px" class="d-flex flex-column">
+      <article style="height: 300px" class="d-flex flex-column">
         <div>
           <global-title h3>{{ destaque.title }}</global-title>
           <h3 class="text-h3 font-weight-bold mb-2"></h3>
@@ -57,7 +57,7 @@
             </v-btn>
           </div>
         </div>
-      </div>
+      </article>
     </v-col>
   </v-row>
 </template>
@@ -74,7 +74,5 @@ export default {
 </script>
 
 <style>
-.slider-touch {
-  /* background-color: #fff !important; */
-}
+
 </style>

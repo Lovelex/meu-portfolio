@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #f0f1f7">
+  <section style="background-color: #f0f1f7">
     <v-container style="">
       <global-title h2 class="mb-6">Projetos</global-title>
 
@@ -28,7 +28,7 @@
         ></main-home-projetos-projeto>
       </div>
     </v-container>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -39,7 +39,7 @@ export default {
   data: () => ({
     projetos: [
       {
-        imgs: ["img-1-a.png", "img-1-b.png"],
+        imgs: ["img-1-a.webp", "img-1-b.webp"],
         title: "Minha Cafeteria",
         subtitle: "Cálculadora de troféus, diamantes e rubys.",
         paragraph:
@@ -49,11 +49,11 @@ export default {
       },
       {
         imgs: [
-          "img-2-a.png",
-          "img-2-b.png",
-          "img-2-c.png",
-          "img-2-d.png",
-          "img-2-e.png",
+          "img-2-a.webp",
+          "img-2-b.webp",
+          "img-2-c.webp",
+          "img-2-d.webp",
+          "img-2-e.webp",
         ],
         title: "Imobiliária digital",
         subtitle: "Front-end para uma imobiliária.",
@@ -64,11 +64,11 @@ export default {
       },
       {
         imgs: [
-          "img-3-a.png",
-          "img-3-b.png",
-          "img-3-c.png",
-          "img-3-d.png",
-          "img-3-e.png",
+          "img-3-a.webp",
+          "img-3-b.webp",
+          "img-3-c.webp",
+          "img-3-d.webp",
+          "img-3-e.webp",
         ],
         title: "Has",
         subtitle: "Divulgações de eventos, para um músico.",
@@ -78,7 +78,7 @@ export default {
         href: "https://github.com/Lovelex/projeto-has",
       },
       {
-        imgs: ["img-4-a.png", "img-4-b.png", "img-4-c.png"],
+        imgs: ["img-4-a.webp", "img-4-b.webp", "img-4-c.webp"],
         title: "Bela Minas",
         subtitle: "Divulgações para peças de roupas femininas.",
         paragraph:
@@ -87,7 +87,7 @@ export default {
         href: "",
       },
       {
-        imgs: ["img-5-a.png"],
+        imgs: ["img-5-a.webp"],
         title: "Este Site",
         subtitle: "Meu Portfólio.",
         paragraph:
@@ -97,13 +97,13 @@ export default {
       },
       {
         imgs: [
-          "img-6-a.png",
-          "img-6-b.png",
-          "img-6-c.png",
-          "img-6-d.png",
-          "img-6-e.png",
-          "img-6-f.png",
-          "img-6-g.png",
+          "img-6-a.webp",
+          "img-6-b.webp",
+          "img-6-c.webp",
+          "img-6-d.webp",
+          "img-6-e.webp",
+          "img-6-f.webp",
+          "img-6-g.webp",
         ],
         title: "Udg Pages",
         subtitle: "Gerador de cenas para stream.",
@@ -114,12 +114,12 @@ export default {
       },
       {
         imgs: [
-          "img-8-a.png",
-          "img-8-b.png",
-          "img-8-c.png",
-          "img-8-d.png",
-          "img-8-e.png",
-          "img-8-f.png",
+          "img-8-a.webp",
+          "img-8-b.webp",
+          "img-8-c.webp",
+          "img-8-d.webp",
+          "img-8-e.webp",
+          "img-8-f.webp",
         ],
         title: "Despachos",
         subtitle: "Controle de pagamento.",
@@ -130,7 +130,7 @@ export default {
       },
 
       {
-        imgs: ["img-10-a.png", "img-10-b.png"],
+        imgs: ["img-10-a.webp", "img-10-b.webp"],
         title: "Muso",
         subtitle: "Uma Prática com firebase-functions",
         paragraph:
@@ -140,11 +140,11 @@ export default {
       },
       {
         imgs: [
-          "img-11-a.png",
-          "img-11-b.png",
-          "img-11-c.png",
-          "img-11-d.png",
-          "img-11-e.png",
+          "img-11-a.webp",
+          "img-11-b.webp",
+          "img-11-c.webp",
+          "img-11-d.webp",
+          "img-11-e.webp",
         ],
         title: "Udg Teams",
         subtitle: "Gerenciador para busca de times e jogadores.",
@@ -155,11 +155,11 @@ export default {
       },
       {
         imgs: [
-          "img-13-a.png",
-          "img-13-b.png",
-          "img-13-c.png",
-          "img-13-d.png",
-          "img-13-e.png",
+          "img-13-a.webp",
+          "img-13-b.webp",
+          "img-13-c.webp",
+          "img-13-d.webp",
+          "img-13-e.webp",
         ],
         title: "Fonktober",
         subtitle: "Organizador de artes.",
